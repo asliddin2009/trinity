@@ -1,0 +1,1 @@
+"use strict";var menu=document.querySelector(".menu"),list=document.querySelector(".list"),body=document.querySelector("body");menu.addEventListener("click",function(){menu.classList.toggle("active"),list.classList.toggle("hideList"),body.classList.toggle("overflowHidden")});
