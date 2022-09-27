@@ -1,3 +1,23 @@
+@media screen and (max-width: 1530px) {
+  .modal__col {
+    left: 630px;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .modal__col {
+    left: 160px;
+  }
+
+  .modal__row {
+    right: 0px;
+  }
+
+  .cols {
+    margin-left: 900px;
+  }
+}
+
 @media screen and (max-width: 1280px) {
   .square,
   .rectangle {
@@ -13,6 +33,10 @@
 }
 
 @media screen and (max-width: 1230px) {
+  .cols {
+    display: none;
+  }
+
   .team__cards {
     gap: 30px;
     -webkit-box-pack: center;
@@ -105,9 +129,42 @@
     max-width: 600px;
     width: 100%;
   }
+
+  .modal__col {
+    left: 50px;
+  }
 }
 
 @media screen and (max-width: 800px) {
+  .modal__col {
+    width: 500px;
+    height: 500px;
+    top: 150px;
+  }
+
+  .form__btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .row__title {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .row__text {
+    font-size: 16px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .form input {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+
   .info {
     margin-top: 180px;
   }
@@ -217,6 +274,26 @@
 }
 
 @media screen and (max-width: 600px) {
+  .modal__col {
+    width: 400px;
+  }
+
+  .row__title {
+    font-size: 30px;
+  }
+
+  .row__text {
+    width: 300px;
+  }
+
+  .form input {
+    width: 300px;
+  }
+
+  .modal__row {
+    height: 670px;
+  }
+
   .info__title {
     font-size: 45px;
     line-height: 45px;
@@ -267,6 +344,38 @@
     -ms-flex-direction: column;
     flex-direction: column;
     margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .modal__col {
+    width: 300px;
+    top: 170px;
+  }
+
+  .modal__row {
+    height: 550px;
+  }
+
+  .row__title {
+    margin-top: 35px;
+    margin-bottom: 0;
+    line-height: 60px;
+    font-size: 25px;
+  }
+
+  .row__text {
+    width: 250px;
+    line-height: 16px;
+  }
+
+  .form input {
+    width: 250px;
+    font-size: 16px;
+  }
+
+  .form {
+    gap: 20px;
   }
 }
 
@@ -382,6 +491,17 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .modal__col {
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .modal__col {
+    width: 100%;
+    left: 0;
   }
 }
 
